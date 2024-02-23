@@ -43,7 +43,7 @@ nav li{
     margin:0rem 4rem;
 }
 .hero-section{
-    background-image: url(/img/nasi.png.jpg);
+    background-image: url(/img/nasi.jpg);
     height:75rem;
     background-size: cover;
     background-position: center;
@@ -83,10 +83,14 @@ form button{
     width: 50%;
 }
 body{background:grey ;}
-    @media (max-width:768px) { body{background: lightslategray;} 
-.tablet{font-size: 3.6rem;}
-@media (max-width:500px) { body{background: lightgrey;} 
-.tablet{font-size: 2.4rem;}
+    @media (max-width:768px) {
+         body{background: lightslategray;} 
+        .tablet{font-size: 3.6rem;}
+    }
+@media (max-width:500px) {
+         body{background: lightgrey;} 
+        .tablet{font-size: 2.4rem;} 
+    }
 
 
 
