@@ -3,6 +3,8 @@ margin: 0rem;
 padding: 0rem;
 box-sizing: border-box;
 }
+body{background:grey ;}
+
 .clear{
     clear: both;
 }
@@ -82,13 +84,11 @@ form button{
     border-radius: 5px;
     width: 50%;
 }
-body{background:grey ;}
-    @media (max-width:768px) {
-         body{background: lightslategray;} 
+
+@media (max-width:768px) {
         .tablet{font-size: 3.6rem;}
     }
 @media (max-width:500px) {
-         body{background: lightgrey;} 
         .tablet{font-size: 2.4rem;} 
     }
 
